@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-html{
+/*html{
     font-size: 100%;
     box-sizing: border-box;
-}
+    margin: 0px;
+}*/
 
 .titulo1,.preco{
     background-color:#00004d;
     padding-top: 50px;
     padding-bottom: 50px;
     font-family: 'Roboto Slab', serif;
+    
 
 }
 .video{
@@ -31,4 +33,11 @@ h2{
     border-radius: 25px;
     width: 100px;
     background-color: crimson;
+}
+.contador{
+    background-color: rgb(109, 73, 27);
+    padding-left: 50%;
+}
+.botao{
+    background-color: black;
 }
