@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-/*html{
+html{
     font-size: 100%;
     box-sizing: border-box;
     margin: 0px;
-}*/
+}
 
 .titulo1,.preco{
     background-color:#00004d;
@@ -24,9 +24,16 @@ h1{
     font-family: 'Roboto Slab', serif;
     text-align: center;
     color: white;
+    
+}
+.video{
+    display: flex;
+    justify-content: center;
 }
 h2{
     font-family: 'Roboto Slab', serif;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     color: white;
     border-style: solid;
@@ -35,9 +42,17 @@ h2{
     background-color: crimson;
 }
 .contador{
-    background-color: rgb(109, 73, 27);
+    background-color: #00004d   ;
     padding-left: 50%;
 }
 .botao{
-    background-color: black;
+    background-color: #0cb980 ;
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
 }
