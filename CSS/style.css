@@ -1,21 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 html{
     font-size: 100%;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     margin: 0px;
 }
-
-.titulo1,.preco{
+body{
+    margin:0;
+    padding:0;
+    
+}
+.container-fluid{
     background-color:#00004d;
+}
+.pintura{
+    background-color:#00004d;
+}
+
+.titulo1{
+    
     padding-top: 50px;
     padding-bottom: 50px;
+    /*margin-left: -10%;
+    margin-right: -10%;*/
     font-family: 'Roboto Slab', serif;
-    
-
 }
 .video{
     background-color:#00004d;
-    padding-right: 50px;
+    margin-left: 25%;
+    /*margin-left: -10%;
+    margin-right: -10%;*/
+}
+.titulo2{
+    font-family: 'Roboto Slab', serif;
+    padding-top: 50px;
 }
 p{
     color: white;
@@ -26,10 +43,7 @@ h1{
     color: white;
     
 }
-.video{
-    display: flex;
-    justify-content: center;
-}
+
 h2{
     font-family: 'Roboto Slab', serif;
     margin-left: auto;
@@ -40,19 +54,51 @@ h2{
     border-radius: 25px;
     width: 100px;
     background-color: crimson;
+    font-size: 40px;
 }
 .contador{
-    background-color: #00004d   ;
-    padding-left: 50%;
+    background-color: #00004d;
+    /*margin-left: -10%;
+    margin-right: -10%;*/
+
 }
-.botao{
-    background-color: #0cb980 ;
-    display: flex;
-    justify-content: center;
+/*.botao{
+    background-color: #00004d;
+    /*padding-left: 18%;*/
+    /* margin-left: -10%;
+    margin-right: -10%;
+}*/    
+    
+
+.b1{
+    background-color: crimson;
+    border: 3px;
+    padding:10px 20px;
+    font-size:50px;
+    cursor:pointer;
+    border-radius: 25px;
+    margin-left: 17%;
+    font-family: 'Roboto Slab', serif;
+    transition: 0.8s;
 }
+.b1:hover{
+    background-color: yellow ;
+
+}
+
 p{
     font-family: 'Roboto Slab', serif;
     display: flex;
     justify-content: center;
     font-size: x-large;
+}
+
+.img-fluid{
+    background-color:#00004d;
+    display: flex;
+    align-content: center;
+}
+.image{
+    background-color:#00004d;
+    
 }
